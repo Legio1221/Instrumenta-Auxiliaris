@@ -1,0 +1,6 @@
+<Project Sdk="Fake">
+    <PropertyGroup>
+        <PackageId>Sample</PackageId>
+        <Version>100.2</Version>
+    </PropertyGroup>
+</Project>

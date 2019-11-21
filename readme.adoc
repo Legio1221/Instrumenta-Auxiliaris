@@ -1,0 +1,15 @@
+= INSTRUMENTA AUXILIARIS
+:author: Oscar Guillermo Castro Jr.
+:revdate: November 21st, 2019
+:revnum: 1.0.0
+
+This repository contains various PowerShell (Core) tools used through my .NET projects.
+
+== Build-PSCorePsm1Module
+Utilizing my project directory structure, this 'builds' a simple PowerShell Module (PSM1) project. The module copies source code into a build folder. Its inception comes from the idea of facilitating publication of PSM1 projects into Github Packages (previously Github Package Registry).
+
+== Get-Version
+Tool used for getting the version of some project, tool, or artifact. Currently only supports csproj files.
+
+== Start-ProgressBarredSleep
+Same as start-sleep but this function also shows a progress indicating the time remaining in the start-sleep function.

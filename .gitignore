@@ -357,3 +357,6 @@ MigrationBackup/
 
 # Ignore builds output
 builds/
+
+# Ignore scriptsettings file.
+scriptsettings.*.json
