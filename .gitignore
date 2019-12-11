@@ -360,3 +360,6 @@ builds/
 
 # Ignore scriptsettings file.
 scriptsettings.*.json
+
+# packages folders
+packages/
