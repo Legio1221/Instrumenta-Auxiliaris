@@ -13,3 +13,13 @@ Tool used for getting the version of some project, tool, or artifact. Currently 
 
 == Start-ProgressBarredSleep
 Same as start-sleep but this function also shows a progress indicating the time remaining in the start-sleep function.
+
+== ConvertTo-Nupkg
+In an attempt to improve the upload method of powershell Nupkgs to Github Packages, this method attempts to facilitate that use case by helping convert PSM1 styled projects to nupkgs through the help of Publish-Module.
+This is essentially a wrapper around Publish-Module.
+
+== Publish-NugetGithubPackage
+In 2019, Github Packages, formerly Github Package Registry, did not properly support cross platform nuget use cases. As a result, this is a work around by utilizing the Github Packages REST api to upload a nupkg.
+
+== Add-NuspecRepositoryTag
+Adds the proper repository tag to nuspec

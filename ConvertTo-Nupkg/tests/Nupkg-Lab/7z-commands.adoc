@@ -1,0 +1,21 @@
+# 7z CLI Extract and Compress
+:source-highlighter: rouge
+
+Stolen from:
+. https://superuser.com/questions/418704/7-zip-command-line-to-zip-all-the-content-of-a-folder-without-zipping-the-folde
+. https://sevenzip.osdn.jp/chm/cmdline/commands/extract_full.htm
+
+## Compress
+
+.Compression with 7z CLI
+[source, powershell]
+----
+7z a -r "archive.zip" "*" # Compress all the files in the current path to 'archive.zip'
+7z a "archive.zip" "./path/to/files/*" # Compress the files in the specified path.
+----
+
+.Extraction with 7z CLI
+[source, powershell]
+----
+7z x "archive.zip" -oc:./path/to/directory -r # Extracts the files in the archive to the specified directory.
+----
